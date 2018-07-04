@@ -123,13 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bullet.hpp" />
-    <ClInclude Include="GameState.hpp" />
-    <ClInclude Include="Map.hpp" />
-    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="XLibrary11.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

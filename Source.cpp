@@ -1,7 +1,4 @@
-#include"XLibrary11.hpp"
-using namespace XLibrary;
-
-#include"GameState.hpp"
+#include"GameState.h"
 
 int MAIN()
 {
