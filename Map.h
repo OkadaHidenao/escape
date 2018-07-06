@@ -21,8 +21,8 @@ public:
 	Map();
 	~Map();
 
-	void Map::Initialize();
-	void Map::Draw();
+	void Initialize();
+	void Draw();
 
 	//•Ç‚ÌŒÂ”
 	const static int wallMax = 19;

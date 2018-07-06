@@ -142,6 +142,7 @@ void GameState::GameMain()
 	}
 	camera.Update(false);
 
+	//時間系=============================================
 	time -= Timer::GetDeltaTime();
 
 	timeText.Create(std::to_wstring((int)time), 16.0f);
@@ -149,6 +150,7 @@ void GameState::GameMain()
 	timeText.position = Float3(0.0f, 200.0f, 0.0f);
 	timeText.Draw();
 
+	//制限時間でゲームオーバー
 	if (time < 1)
 	{
 		gameSeq = GAME_OVER;
